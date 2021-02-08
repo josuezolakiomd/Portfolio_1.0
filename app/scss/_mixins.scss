@@ -1,0 +1,11 @@
+// Mobile Device Resposive
+@media (max-width:48rem) {
+  body {
+    flex-direction:column;
+
+    .sideBar {
+      position:static;
+      width:100%;
+    }
+  }
+}

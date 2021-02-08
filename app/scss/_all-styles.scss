@@ -1,0 +1,128 @@
+body {
+  .sideBar { // Para Mobile Eliminar o position:Fixed ajuda muito para comecar a trabalhar na resposividade
+    position:fixed;
+    top:0;
+    bottom:0;
+    width:28.125rem;
+    height:700px;
+    overflow-y:auto;
+    padding-top:50px;
+    // background-color:rgb(148, 62, 4);
+    background-color: rgb(10, 64, 107);
+
+    .profile_picture {
+      padding-bottom:220px;
+      width:230px;
+      height:230px;
+      border-radius:500px;
+      border:5px solid rgb(231, 96, 6);
+      background-color:#EEE;
+      background-image:url('../../images/picture\ 1.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
+    }
+
+    .name {
+      margin-top:20px;
+      font-size: 3rem;
+      color:#fff;
+      font-family:'Montserrat', Raleway, sans-serif;
+      font-weight:700;
+    }
+
+    .titles {
+      text-align:center;
+      padding:20px 30px;
+      color:#CCC;
+      font-family:'Raleway';
+      line-height:2rem;
+      font-size:1.3rem;
+      border-bottom:2px solid #CCC;
+    }
+
+    nav {
+      // align-self:start;
+      margin-top:10px;
+      padding:50px;
+      border-bottom:2px solid #CCC;
+
+      a {
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        font-size:1.4rem;
+        font-family:'Arial';
+        font-weight:500;
+        color:#FFF;
+        padding-left:30px;
+        padding-right:30px;
+
+        img {
+          width:100px;
+        }
+      }
+      a:not(:last-child) {
+        padding-bottom:15px;
+        margin-bottom:15px;
+      }
+
+    }
+
+    .social__midia {
+      color:white;
+      h2 {
+        text-align:center;
+        padding:20px;
+        color:inherit;
+        font-family:'Montserrat', Raleway, sans-serif;
+      }
+
+      .git__btn {
+        margin-top:35px;
+        margin-bottom:10px;
+        color:white;
+        padding:20px 30px;
+        font-size:1.29rem;
+        border-radius:8px;
+        background: linear-gradient(to left,rgb(231, 96, 6), rgb(14, 82, 138));
+        transition: All ease-in-out 100ms;
+
+        &:hover {
+          font-weight:500;
+          color:rgb(231, 96, 6);
+          background: linear-gradient(to right,rgb(20, 9, 2), rgb(19, 44, 65) );
+        }
+      }
+
+      .midia_links {
+        margin-top:60px;
+        height:130px;
+
+        a {
+          width:50px;
+          height:50px;
+          border-radius:100px;
+          background-color:#BBB;
+
+          &:not(:last-child) {
+            margin-right:40px;
+          }
+        }
+      }
+      h3 {
+        text-align:center;
+        color:#CCC;
+        margin-bottom:20px;
+      }
+    }
+
+  }
+}
+
+// .container {
+//   background-color:#EEE;
+//   width:100%;
+//   height:1500px;
+//   margin-left:470px;
+// }
