@@ -8,8 +8,6 @@
 // 2 ##- Raleway (400, 700) 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-// 3 ## - Montserrat (200 - 900)
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
 // # Configurações envolvendo Padding, Margin e o tamanho de fontes
 
@@ -19,7 +17,7 @@ html {
 }
 
 *, *::before, *::after {
-  box-sizing:border-box;
+  box-sizing:inherit;
   margin:0;
   padding:0;
 }
@@ -85,5 +83,4 @@ body {
   padding-right:1.25rem;
 }
 
-$primary__font:'Montserrat', Raleway, sans-serif;
 // Fim do Arquivro, Obrigado!
