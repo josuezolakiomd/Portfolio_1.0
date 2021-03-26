@@ -8,7 +8,8 @@ body {
     overflow-y:auto;
     padding-top:50px;
     // background-color:rgb(148, 62, 4);
-    background-color: rgb(10, 64, 107);
+    // background-color: rgb(10, 64, 107);
+    background-color: #0D1117;
 
     .profile_picture {
       padding-bottom:220px;
@@ -92,7 +93,8 @@ body {
         &:hover {
           font-weight:500;
           color:rgb(231, 96, 6);
-          background: linear-gradient(to right,rgb(6, 42, 71), rgb(19, 44, 65) );
+          // background: linear-gradient(to right,rgb(6, 42, 71), rgb(19, 44, 65) );
+          background:#161B22;
         }
       }
 
@@ -105,7 +107,8 @@ body {
           width:50px;
           height:50px;
           border-radius:100px;
-          background-color:rgb(6, 42, 71);
+          // background-color:rgb(6, 42, 71);
+          background-color:#161B22;
           transition:All ease-in-out 200ms;
 
           &:not(:last-child) {
